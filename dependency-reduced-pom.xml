@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>test.app</groupId>
-  <artifactId>test-app</artifactId>
+  <groupId>org.example</groupId>
+  <artifactId>micronaut-angular-spa</artifactId>
   <version>0.1</version>
   <build>
     <pluginManagement>
@@ -114,6 +114,7 @@
       </plugin>
       <plugin>
         <artifactId>maven-resources-plugin</artifactId>
+        <version>3.1.0</version>
         <executions>
           <execution>
             <id>copy-resources</id>
@@ -250,7 +251,7 @@
   </dependencyManagement>
   <properties>
     <jdk.version>1.8</jdk.version>
-    <exec.mainClass>test.app.Application</exec.mainClass>
+    <exec.mainClass>org.example.Application</exec.mainClass>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <micronaut.version>1.1.0</micronaut.version>
   </properties>

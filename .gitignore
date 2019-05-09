@@ -11,3 +11,7 @@ out/
 .project
 .settings
 .classpath
+node/node
+node/npm
+node/npm.cmd
+package-lock.json

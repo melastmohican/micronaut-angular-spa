@@ -1,6 +1,6 @@
 micronaut:
   application:
-    name: test-app
+    name: micronaut-angular-spa
   router:
     static-resources:
       default:
