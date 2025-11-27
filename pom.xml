@@ -149,11 +149,11 @@
             <plugin>
                 <groupId>com.github.eirslett</groupId>
                 <artifactId>frontend-maven-plugin</artifactId>
-                <version>1.6</version>
+                <version>1.11.0</version>
 
                 <configuration>
-                    <nodeVersion>v9.11.1</nodeVersion>
-                    <npmVersion>6.3.0</npmVersion>
+                    <nodeVersion>v18.17.0</nodeVersion>
+                    <npmVersion>9.6.7</npmVersion>
                     <workingDirectory>src/main/webapp/</workingDirectory>
                 </configuration>
 
@@ -189,6 +189,9 @@
                         </goals>
                         <configuration>
                             <arguments>run-script build</arguments>
+                            <environmentVariables>
+                                <NODE_OPTIONS>--openssl-legacy-provider</NODE_OPTIONS>
+                            </environmentVariables>
                         </configuration>
                         <phase>generate-resources</phase>
                     </execution>
