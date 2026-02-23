@@ -11,7 +11,10 @@
   },
   "private": true,
   "overrides": {
-    "@modelcontextprotocol/sdk": "1.26.0"
+    "@modelcontextprotocol/sdk": "1.26.0",
+    "@angular/cli": {
+      "minimatch": "^10.2.1"
+    }
   },
   "dependencies": {
     "@angular-eslint/schematics": "^21.2.0",
