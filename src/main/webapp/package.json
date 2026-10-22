@@ -92,7 +92,6 @@
     "@types/node": "~24.10.1",
     "jasmine-core": "~5.13.0",
     "jasmine-spec-reporter": "~7.0.0",
-    "jest": "^30.2.0",
     "karma": "~6.4.4",
     "karma-chrome-launcher": "~3.2.0",
     "karma-coverage-istanbul-reporter": "~3.0.3",
